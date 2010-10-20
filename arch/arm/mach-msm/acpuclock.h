@@ -20,9 +20,6 @@
 #ifndef __ARCH_ARM_MACH_MSM_ACPUCLOCK_H
 #define __ARCH_ARM_MACH_MSM_ACPUCLOCK_H
 
-/**Overide default scaling_max_freq */	
-#define DEFAULT_SCALING_MAX_FREQ_OVERIDE 528000
-	
 enum setrate_reason {
 	SETRATE_CPUFREQ = 0,
 	SETRATE_SWFI,
